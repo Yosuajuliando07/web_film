@@ -1,5 +1,23 @@
-## Proses Instalasi
+## Instalasi
+- git clone https://github.com/Yosuajuliando07/web_film.git
+- composer install
+- cp .env.example .env
+- php artisan key:generate
+- npm install && npm run dev
+- composer dump-autoload
+- php artisan migrate
+- php artisan db:seed
+- mkdir public/uploads | php artisan storage:link
 
+## Default Login
+username: administrator atau admin@mail.com
+password: admin123
+
+username: user atau user@mail.com
+password: user123
+
+
+ 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
