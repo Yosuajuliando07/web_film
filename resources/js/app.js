@@ -1,0 +1,9 @@
+import './bootstrap';
+import './bootstrap.min';
+import './jquery-3.3.1.min';
+import './jquery.nice-select.min';
+import './jquery.slicknav';
+import './main';
+import './mixitup.min';
+import './owl.carousel.min';
+import './player';
